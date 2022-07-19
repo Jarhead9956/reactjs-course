@@ -1,0 +1,19 @@
+.new-expense-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-expense-btn-container button {
+    border: none;
+    border-radius: 10px; 
+    background-color: #1E1B39;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.new-expense-btn-container button:active {
+    transform: scale(0.96);
+}

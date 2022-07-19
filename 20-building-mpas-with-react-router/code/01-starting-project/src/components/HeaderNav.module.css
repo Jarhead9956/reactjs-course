@@ -1,0 +1,40 @@
+.nav-container {
+    background-color: rgb(20, 177, 177);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation li {
+    margin: 3px 7px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation li a:hover,
+.navigation li a:active,
+.navigation li a.active {
+    color: rgb(189, 246, 246);
+    border-bottom: 4px solid white;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+}
+
+.message {
+    font-size: 36px;
+    margin: 60px 0
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.centered a {
+    background-color: #14B1B1;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}

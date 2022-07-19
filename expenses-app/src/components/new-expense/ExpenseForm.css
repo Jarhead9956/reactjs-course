@@ -1,0 +1,48 @@
+.inputs-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.inputs-wraper div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 5px 20px;
+}
+
+.inputs-wraper div input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.inputs-wraper div input:focus {
+    outline: none;
+}
+
+.button-wraper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-wraper button {
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px; 
+    background-color: #1E1B39;
+    color: white;
+    cursor: pointer;
+}
+
+.button-wraper button:active {
+    transform: scale(0.96);
+}
+
+.button-wraper .cancel-btn {
+    margin-right: 20px;
+}

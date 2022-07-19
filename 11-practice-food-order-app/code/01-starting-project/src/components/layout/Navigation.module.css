@@ -1,0 +1,17 @@
+.navigation {
+    background-color: #5A1E16;
+    width: 100%;
+    height: 80px;
+    color: #FFF;
+}
+
+.navigation .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navigation .logo {
+    font-size: 30px;
+}

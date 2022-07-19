@@ -1,0 +1,22 @@
+.sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 10px 10px;
+}
+
+.sort-container select {
+    background-color: #1E1B39;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sort-container select:focus {
+    outline: none;
+}
+
+.sort-container select option {
+    border-radius: 10px;
+}

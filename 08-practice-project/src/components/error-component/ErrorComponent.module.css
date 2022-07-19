@@ -1,0 +1,39 @@
+.error-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.error {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 30%;
+}
+
+.error h2 {
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.error-massage {
+    padding: 0 10px;
+}
+
+.error .button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,7 @@
+.chart-container {
+    background-color: #8A8ABC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}

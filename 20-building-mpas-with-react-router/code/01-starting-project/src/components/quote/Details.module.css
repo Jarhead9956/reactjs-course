@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    background-color: #14B1B1;
+    margin-top: 50px;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.content {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p {
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.author h2 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 40px 20px 0;
+}

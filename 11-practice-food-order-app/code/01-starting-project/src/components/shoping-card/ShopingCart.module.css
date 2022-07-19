@@ -1,0 +1,29 @@
+.shoping-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #281511;
+    color: #FFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.shoping-cart .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 85%;
+}
+
+.shoping-cart .amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 25px;
+    border-radius: 40%;
+    background-color: #792D1C;
+}

@@ -1,0 +1,62 @@
+.form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    z-index: 100;
+    padding: 20px;
+}
+
+input {
+    height: 30px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.input-wrapper label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.input-wrapper.error input {
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: rgb(247, 164, 164);
+}
+
+.input-wrapper.error p {
+    color: red;
+}
+
+.input-wrapper.error label {
+    color: rgb(247, 164, 164)
+}
+
+.buttons {
+    text-align: right;
+    padding: 0 20px;
+}
+
+.buttons button {
+    margin-left: 8px;
+}
+
+.disabled {
+    background-color: #ada9ab;
+    color: black;
+    cursor: not-allowed;
+}

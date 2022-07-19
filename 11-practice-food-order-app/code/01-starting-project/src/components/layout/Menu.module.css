@@ -1,0 +1,55 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    background-color: #FFF;
+    width: 90%;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2E404D;
+    padding: 10px 0;
+}
+
+.meal-container .price {
+    color: red;
+    font-weight: bold;
+}
+
+.controls {
+    text-align: right;
+}
+
+.input {
+    width: 30%;
+    margin-left: 15px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+}

@@ -1,0 +1,94 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.details {
+    position: fixed;
+    padding: 20px 10px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #67103c;
+    padding-bottom: 20px;
+}
+
+.meal-details .meal-name {
+    font-weight: bold;
+}
+
+.meal-details .meal-price {
+    color: #67103c;
+    font-weight: bold;
+    display: inline;
+    margin-right: 50px;
+}
+
+.meal-details .meal-amount {
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.controlers button {
+    font-size: 20px;
+    padding: 0px 20px;
+    border: 1px solid #67103c;
+    color: #67103c;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controlers button:active {
+    transform: scale(0.97);
+}
+
+.controlers button:hover {
+    background-color: #67103c;
+    color: #fff;
+}
+
+.controlers .decrease {
+    margin-right: 10px;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.total p {
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.close-btn {
+    background-color: #fff;
+    color: #67103c;
+    border: 1px solid #67103c;
+    margin-right: 10px;
+}

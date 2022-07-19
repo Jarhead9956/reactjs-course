@@ -1,0 +1,12 @@
+.form-container {
+    width: 60%;
+    background: linear-gradient(90deg, rgba(5,156,203,1) 0%, rgba(133,204,189,1) 70%);
+    padding: 20px 40px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+    }
+ }

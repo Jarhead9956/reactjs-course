@@ -1,0 +1,7 @@
+.new-expense-container {
+    width: 60%;
+    /* height: 30vh; */
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    background-color: #8A8ABC;
+}

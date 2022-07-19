@@ -1,0 +1,310 @@
+input {
+    height: 25px;
+    outline: none;
+}
+
+select {
+    height: 25px;
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.form-description {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.form {
+    width: 80%;
+}
+
+.form-name {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-name label {
+    flex: 1;
+}
+
+.form-name-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    flex-wrap: wrap;
+}
+
+.form-name-inputs input {
+    width: 45%;
+}
+
+.form-email {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-email label {
+    flex: 1;
+}
+
+.form-email-input {
+    width: 75%;
+}
+
+.form-email-input input {
+    width: 100%;
+}
+
+.form-phone {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-phone label {
+    flex: 1;
+}
+
+.form-phone-inputs {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-phone-inputs input {
+    width: 100%;
+}
+
+.form-message-subject {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-message-subject label {
+    flex: 1;
+}
+
+.form-message-subject-options {
+    width: 75%;
+}
+
+.form-message-subject-options select {
+    width: 65%;
+}
+
+.form-message {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-message label {
+    flex: 1;
+}
+
+.form-message-textarea {
+    width: 75%;
+}
+
+.form-message textarea {
+    width: 100%;
+}
+
+.form-verification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+
+.form-verification-check {
+    width: 75%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    height: 50px;
+    background-color: #F8F8F8;
+    color: black;
+    padding-left: 7px;
+}
+
+.checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.checkbox label {
+    font-size: 12px;
+}
+
+.form-control button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #22A7C8;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.form-control button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #22A7C8;
+}
+
+.form-control button:disabled,
+.form-control button:disabled:hover,
+.form-control button:disabled:active {
+    cursor: not-allowed;
+}
+
+.form-control button:active {
+    transform: scale(0.96);
+}
+
+@media (max-width: 800px) { 
+    .form-header {
+        margin-bottom: 5px;
+        letter-spacing: 0;
+    }
+    
+    .form-description {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form-name {
+        display: block;
+        text-align: center;
+    }
+       
+    .form-name-inputs {
+        display: block;
+        width: 100%;
+    }
+    
+    .form-name-inputs input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form-email {
+        display: block;
+        text-align: center;
+    }
+        
+    .form-email-input {
+        width: 100%;
+    }
+    
+    .form-email-input input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .form-phone {
+        display: block;
+        text-align: center;
+    }
+        
+    .form-phone-inputs {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form-message-subject {
+        display: block;
+        text-align: center;
+    }
+    
+    .form-message-subject-options {
+        width: 100%;
+    }
+    
+    .form-message-subject-options select {
+        width: 50%;
+    }
+
+    .form-message {
+        display: block;
+        text-align: center;
+    }
+    
+    .form-message-textarea {
+        width: 100%;
+    }
+    
+    .form-message textarea {
+        width: 100%;
+    }
+
+    .form-verification {
+        display: block;
+        text-align: center;
+    }
+    
+    .form-verification-check {
+        width: 100%;
+    }
+    
+    .checkbox {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 50px;
+        background-color: #F8F8F8;
+        color: black;
+        padding-left: 7px;
+    }
+    
+    .checkbox input {
+        width: 15px;
+        height: 15px;
+        margin-right: 7px;
+    }
+    
+    .checkbox label {
+        font-size: 12px;
+    }
+    
+}

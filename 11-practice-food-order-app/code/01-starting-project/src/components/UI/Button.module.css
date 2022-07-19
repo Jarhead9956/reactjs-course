@@ -1,0 +1,16 @@
+.button {
+    background-color: #67103c;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.button:focus {
+    outline: none;
+}

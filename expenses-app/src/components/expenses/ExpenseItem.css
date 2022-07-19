@@ -1,0 +1,17 @@
+.expense-item {
+    background-color: #2D2D2D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.expence-amount {
+    background-color: #1E1B39;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
